@@ -83,8 +83,8 @@ p {
 }
 
 a {
-  color: #24a7ff;
-  text-decoration: underline;
+  color: #AAA;
+  text-decoration: none;
 }
 
 ul {
@@ -809,3 +809,4 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     margin-left: 0px;
   }
 }
+
