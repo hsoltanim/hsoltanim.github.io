@@ -45,7 +45,7 @@ body {
 .bit-75 {width:75%;}
 .bit-100 {width:100%;}
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 640px) {
 	.bit-25,.bit-33,.bit-50,.bit-66,.bit-75 {width: 100%;}
 }
 
