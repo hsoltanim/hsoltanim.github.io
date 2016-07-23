@@ -4,9 +4,9 @@ function putfields() {
     
 	document.getElementById("topbar").innerHTML = '\
 		<div class="site-name">\
-			<a href="index.html">\
+			<p><a href="index.html">\
 			درباره سازه ها ...\
-			</a>\
+			</a></p>\
 		</div>\
 		<nav role="navigation" class="nav-menu">\
 			<a href="index.html" class="nav-link">\
@@ -50,7 +50,7 @@ function putfields() {
 ';
 	
 	document.getElementById("sidefooter").innerHTML = '\
-		<a href="#header" class="footer-link">\
+		<p><a href="#header" class="footer-link">\
 			بازگشت به بالا\
 		</a> <br> \
 		<a href="index.html">\
@@ -58,7 +58,7 @@ function putfields() {
 		</a> - \
 		<a href="about.html">\
 			درباره\
-		</a>\
+		</a></p>\
 ';
 
 }
