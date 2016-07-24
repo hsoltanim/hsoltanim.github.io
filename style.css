@@ -75,7 +75,7 @@ body {
 	padding-left: 11px;
 	-webkit-transition: color 200ms ease;
 	transition: color 200ms ease;
-	font-size: 15px;
+	font-size: 1em;
 	line-height: 21px;
 	font-weight: 400;
 	letter-spacing: 0.5px;
@@ -107,7 +107,7 @@ body {
 	color:#333333;
 	margin: 16px 16px 16px 16px;
 	color: #fff;
-	font-size: 25px;
+	font-size: 1.5em;
 	line-height: 100%;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -126,7 +126,7 @@ body {
 	display:inline-block;
 	width:100%;	
 	color: #ebebeb;
-	font-size: 12px;
+	font-size: 0.75em;
 }
 
 .footer,.footer a {
@@ -151,6 +151,8 @@ h5 {
 
 img {
 	width: 100%;
+	padding: 1px;
+	border: 1px dashed #e6b0aa;		
 }
 
 blockquote {
