@@ -27,13 +27,13 @@ function putfields() {
 		</h2>\
 		<p><a href="structuralsystems.html">\
 			روش های نوین طراحی لرزه ای\
-		</a></p>\
+		</a></p><hr>\
 		<p><a href="steelvsconcrete.html">\
 			سازه فولادی یا بتنی؟\
-		</a>\
+		</a></p><hr>\
 		<p><a href="about.html">\
 			درباره این وب سایت\
-		</a></p>\
+		</a></p><hr>\
 ';
 	
 	document.getElementById("mainfooter").innerHTML = '\
