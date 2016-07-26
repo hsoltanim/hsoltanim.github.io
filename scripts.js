@@ -23,6 +23,9 @@ function putfields() {
 		<h2>\
 			نوشته ها\
 		</h2>\
+		<p><a href="outrigger.html">\
+			سیستم برون بند\
+		</a></p><hr>\
 		<p><a href="brbf.html">\
 			مهاربندهای کمانش تاب\
 		</a></p><hr>\
