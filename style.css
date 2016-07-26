@@ -12,18 +12,19 @@
 	text-decoration: none;
 	text-align: justify;
 	line-height: 220%;
+	color: #ffffff;	
 }
 
 body {
-	background: #7b241c;
+	background: #145a32;
 }
 
-a {
-	color: #c0392b;
+a  {
+	color: #d4efdf;
 }
 
 a:hover {	
-	color:  #d98880 ;
+	color: #7dcea0;
 }
 
 img {
@@ -32,8 +33,8 @@ img {
 
 figure {
     margin: 40px 0px 40px 0px;
-	border: 1px solid #e6b0aa;	
-	background:  #f9ebea;
+	border: 1px solid  #27ae60;	
+	background:  #145a32;
 }
 
 figcaption {
@@ -43,14 +44,14 @@ figcaption {
 }
 
 hr {
-	border-top: 1px dashed #e6b0aa;
-	border-bottom: 0px hidden #e6b0aa;
+	border-top: 1px dashed #7dcea0;
+	border-bottom: 0px hidden #7dcea0;
 }
 
 blockquote {
 	margin: 0px -15px 0px -10px;
 	padding: 0px 10px 0px;
-	border-right: 5px solid  #e6b0aa;
+	border-right: 5px solid #7dcea0;
 }
 
 ul {
@@ -75,9 +76,9 @@ ul {
 .bit-75 {width:75%;}
 .bit-100 {width:100%;}
 
-@media print, @media (max-width: 640px), @media (max-device-width: 640px) {
-	.bit-25,.bit-33,.bit-50,.bit-66,.bit-75 {width: 100%;}
-}
+@media print { .bit-25,.bit-33,.bit-50,.bit-66,.bit-75 {width: 100%;} }
+@media (max-width: 640px) {	.bit-25,.bit-33,.bit-50,.bit-66,.bit-75 {width: 100%;} }
+@media (max-device-width: 640px) {	.bit-25,.bit-33,.bit-50,.bit-66,.bit-75 {width: 100%;} }
 
 .nav-link, .nav-title {
 	color:#fff;
@@ -93,7 +94,7 @@ ul {
 .content-wrapper {
 	display:inline-block;	
 	padding: 50px;
-	background-color: #fff;
+	background-color: #1e8449;
 }
 
 .footer {
@@ -101,6 +102,3 @@ ul {
 	font-size: 80%;	
 }
 
-.footer, .footer a {	
-	color: #ebebeb;
-}
