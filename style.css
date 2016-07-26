@@ -6,14 +6,12 @@
 *, *:after, *:before {
 	margin: 0;
 	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: web_Yekan;
 	direction: rtl;
 	text-decoration: none;
 	text-align: justify;
-	line-height: 250%;
+	line-height: 220%;
 }
 
 body {
@@ -64,11 +62,6 @@ ul {
 	padding: 10px;
 }
  
-[class*='bit-']:last-of-type {
-	padding-right: 10px;
-	float: right;	
-}
- 
 .frame:after {
   content: "";
   display: table;
@@ -82,84 +75,32 @@ ul {
 .bit-75 {width:75%;}
 .bit-100 {width:100%;}
 
-@media only screen and (max-width: 640px) {
+@media print, @media (max-width: 640px), @media (max-device-width: 640px) {
 	.bit-25,.bit-33,.bit-50,.bit-66,.bit-75 {width: 100%;}
 }
 
-@media only screen and (max-device-width: 640px) {
-	.bit-25,.bit-33,.bit-50,.bit-66,.bit-75 {width: 100%;}
-}
-
-.nav-bar {
-	padding-top: 12px;
-	padding-bottom: 12px;
-	background-color: #c0392b;
-}
-
-.nav-link {
-	position:relative;
-	display:inline-block;
-	vertical-align:top;
+.nav-link, .nav-title {
 	color:#fff;
-	padding:20px;
-	text-align:left;
-	margin-top:16px;
-	padding-right: 11px;
-	padding-left: 11px;
-	-webkit-transition: color 200ms ease;
-	transition: color 200ms ease;
-	font-size: 1em;
-	line-height: 21px;
-	font-weight: 400;
-	letter-spacing: 0.5px;
+	padding:10px;
+	margin:10px 0px 10px 0px;
+	font-size: 16px;
 }
 
-.nav-menu {
-	position:relative;
-	float:right;
-}
-
-.container{
-	margin-left:auto;
-	margin-right:auto;
-	max-width:1200px;
-}
-
-.container:before,.container:after{
-	content:" ";
-	display:table
-}
-
-.container:after{
-	clear:both
-}
-
-.site-name,.site-name a {
-	position:relative;
-	float:right;
-	color:#333333;
-	margin: 16px 16px 16px 16px;
-	color: #fff;
-	font-size: 125%;
-	line-height: 100%;
-	font-weight: 700;
-	letter-spacing: 1px;
+.nav-title {
+	font-size: 24px;
 }
 
 .content-wrapper {
 	display:inline-block;	
-	padding-top: 60px;
-	padding-bottom: 60px;
-	padding-left: 60px;
-	padding-right: 60px;  
+	padding: 50px;
 	background-color: #fff;
 }
 
 .footer {
+	padding:0px 10px 20px 10px;
 	font-size: 80%;	
-	color: #ebebeb;
 }
 
-.footer a {	
+.footer, .footer a {	
 	color: #ebebeb;
 }

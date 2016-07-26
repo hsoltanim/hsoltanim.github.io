@@ -3,24 +3,22 @@ function putfields() {
 	var aeml= ' <a hr'; aeml += 'ef="m'; aeml += 'ail'; aeml += 'to:'; aeml += eml; aeml += '">'; aeml += eml; aeml += '</a> '
     
 	document.getElementById("topbar").innerHTML = '\
-		<div class="site-name">\
-			<p><a href="index.html">\
-			درباره سازه ها ...\
-			</a></p>\
-		</div>\
-		<nav role="navigation" class="nav-menu">\
-			<a href="index.html" class="nav-link">\
-				خانه\
-			</a>\
-		</nav>\
-		<nav role="navigation" class="nav-menu">\
-			<a href="about.html" class="nav-link">\
-				درباره\
-			</a>\
-		</nav>\
+<div class="bit-100">\
+	<a href="#" class="nav-title">\
+		درباره سازه ها ... \
+	</a>\
+	<a href="index.html" class="nav-link">\
+		خانه\
+	</a>\
+	<a href="about.html" class="nav-link">\
+		درباره\
+	</a>\
+	<br>\
+</div>\
 ';
 	
 	document.getElementById("sidebar").innerHTML = '\
+	<div class="bit-25">\
 		<h2>\
 		<h2>\
 			نوشته ها\
@@ -34,30 +32,34 @@ function putfields() {
 		<p><a href="about.html">\
 			درباره این وب سایت\
 		</a></p><hr>\
+	</div>\
 ';
 	
-	document.getElementById("mainfooter").innerHTML = '\
+	document.getElementById("botbar").innerHTML = '\
+<footer class="footer">\
+	<div class="bit-75">\
 		<p>\
 این وب سایت توسط حمید سلطانی محمدی تهیه گردیده است.\
 <br>\
 برای تماس با نگارنده می توانید به آدرس پست الکترونیکی\
-' + aeml + '\
+ ' + eml + ' \
 مکاتبه فرمایید.\
 <br>\
 استفاده از مطالب این وب سایت آزاد است.\
 		</p>\
-';
-	
-	document.getElementById("sidefooter").innerHTML = '\
-		<p><a href="#header" class="footer-link">\
+	</div>\
+	<div class="bit-25">\
+		<a href="#header" class="footer-link">\
 			بازگشت به بالا\
-		</a> <br> \
+		</a><br>\
 		<a href="index.html">\
 			خانه\
 		</a> - \
 		<a href="about.html">\
 			درباره\
-		</a></p>\
+		</a>\
+	</div>\
+</footer>\
 ';
 
 }
