@@ -23,6 +23,9 @@ function putfields() {
 		<h2>\
 			نوشته ها\
 		</h2>\
+		<p><a href="brbf.html">\
+			مهاربندهای کمانش تاب\
+		</a></p><hr>\
 		<p><a href="structuralsystems.html">\
 			روش های نوین طراحی لرزه ای\
 		</a></p><hr>\
