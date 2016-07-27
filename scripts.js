@@ -19,10 +19,13 @@ function putfields() {
 	
 	document.getElementById("sidebar").innerHTML = '\
 	<div class="bit-25">\
-		<h2>\
+		<br>\
 		<h2>\
 			نوشته ها\
 		</h2>\
+		<p><a href="isolation.html">\
+			جداسازی پایه\
+		</a></p><hr>\
 		<p><a href="outrigger.html">\
 			سیستم برون بند\
 		</a></p><hr>\
@@ -37,7 +40,7 @@ function putfields() {
 		</a></p><hr>\
 		<p><a href="about.html">\
 			درباره این وب سایت\
-		</a></p><hr>\
+		</a></p>\
 	</div>\
 ';
 	
