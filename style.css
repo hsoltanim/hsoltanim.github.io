@@ -8,7 +8,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: web_Yekan;
-	font-size: 1em;
 	direction: rtl;
 	text-decoration: none;
 	text-align: justify;
@@ -27,16 +26,6 @@ a  {
 
 a:hover {	
 	color: #7dcea0;
-}
-
-h1 {
-	font-size: 200%;
-	text-align: center;
-}
-
-h2 {
-	font-size: 150%;
-	text-align: center;
 }
 
 img {
