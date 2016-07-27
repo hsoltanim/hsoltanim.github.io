@@ -23,6 +23,9 @@ function putfields() {
 		<h2>\
 			نوشته ها\
 		</h2>\
+		<p><a href="ebf.html">\
+			مهاربندهای واگرا (برون محور)\
+		</a></p><hr>\
 		<p><a href="isolation.html">\
 			جداسازی پایه\
 		</a></p><hr>\
