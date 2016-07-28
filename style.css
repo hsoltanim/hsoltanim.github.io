@@ -17,7 +17,6 @@
 
 body {
 	background: #145a32;
-	background: linear-gradient(to left, #145a32 , #1e8449);
 }
 
 a  {
@@ -56,49 +55,24 @@ blockquote {
 	border-right: 5px solid #7dcea0;
 }
 
-ul {
-	padding-right: 32px;
-}
-
-[class*='bit-'] {
-	float: left;
+.sidesection {
+	float: right;
 	padding: 10px;
-}
- 
-.frame:after {
-  content: "";
-  display: table;
-  clear: both;
+	width:20%;
+	background: #145a32;
 }
 
-.bit-25 {width:25%;}
-.bit-50 {width:50%;}
-.bit-75 {width:75%;}
-.bit-100 {width:100%;}
-
-@media print { .bit-25,.bit-50,.bit-75 {width: 100%;} }
-@media (max-width: 640px) {	.bit-25,.bit-50,.bit-75 {width: 100%;} }
-@media (max-device-width: 640px) {	.bit-25,.bit-50,.bit-75 {width: 100%;} }
-
-.nav-link, .nav-title {
-	color:#fff;
-	padding:10px;
-	margin:10px 0px 10px 0px;
-	font-size: 16px;
+.mainsection {
+	float: right;
+	padding: 40px 40px 10px 40px;
+	width:75%;
+	background: #1e8449;
 }
 
-.nav-title {
-	font-size: 200%;
+.sideinfo {
+	font-size: 75%;
 }
 
-.content-wrapper {
-	display:inline-block;	
-	padding: 50px;
-	background-color: #1e8449;
-}
-
-.footer {
-	padding:0px 10px 20px 10px;
-	font-size: 80%;	
-}
-
+@media print { .sidesection,.mainsection {width: 100%;} }
+@media (max-width: 800px) { .sidesection,.mainsection {width: 100%;} }
+@media (max-device-width: 800px) { .sidesection,.mainsection {width: 100%;} }
