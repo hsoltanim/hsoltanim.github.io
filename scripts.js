@@ -4,7 +4,7 @@ function putfields() {
     
 	document.getElementById("topbar").innerHTML = '\
 <div class="sidesection">\
-	<h1><a href="#">\
+	<h1><a href="index.html">\
 		درباره سازه ها ... \
 	</a></h2>\
 	<br>\
