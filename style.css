@@ -58,7 +58,7 @@ blockquote {
 .sidesection {
 	float: right;
 	padding: 10px;
-	width:25%;
+	width:30%;
 }
 
 .mainsection {
@@ -71,4 +71,3 @@ blockquote {
 .sideinfo {
 	font-size: 75%;
 }
-
