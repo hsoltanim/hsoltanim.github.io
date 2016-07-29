@@ -72,6 +72,3 @@ blockquote {
 	font-size: 75%;
 }
 
-@media print { .sidesection,.mainsection {width: 100%;} }
-@media (max-width: 800px) { .sidesection,.mainsection {width: 100%;} }
-@media (max-device-width: 800px) { .sidesection,.mainsection {width: 100%;} }
