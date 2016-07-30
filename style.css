@@ -68,3 +68,8 @@ blockquote {
 	background:  #2c3e50;
 	width:80%;	
 }
+
+@media print {
+	.sidesection {display:none;}
+	.mainsection {width:100%;}
+}
