@@ -56,7 +56,6 @@ blockquote {
 .sidesection {
 	float: right;
 	padding: 10px;
-	font-size: 80%;	
 	width: 20em;
 }
 
@@ -69,7 +68,7 @@ blockquote {
 	padding: 40px 40px 10px 40px;
 	background: #154360;
 	width: 80%;
-	width: calc(100% - 16em);
+	width: calc(100% - 20em);
 }
 
 .screen {
