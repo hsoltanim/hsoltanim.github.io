@@ -45,7 +45,6 @@ figcaption {
 hr {
 	border-top: 1px dashed  #fff;
 	border-bottom: 0px hidden  #fff;
-	margin: 10px 20px 10px 20px;
 }
 
 blockquote {
@@ -69,12 +68,11 @@ blockquote {
 	float: right;
 	padding: 40px 40px 10px 40px;
 	background: #154360;
-	width:80%;
+	width: 80%;
 	width: calc(100% - 16em);
 }
 
 .screen {
-	
 }
 
 @media print {
