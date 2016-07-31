@@ -12,7 +12,7 @@
 	text-decoration: none;
 	text-align: justify;
 	line-height: 250%;
-	color: #ffffff;	
+	color: #fff;	
 }
 
 body {
@@ -20,11 +20,11 @@ body {
 }
 
 a  {
-	color: #d5d8dc;
+	color: #f5cba7;
 }
 
 a:hover {	
-	color:  #808b96;
+	color: #eb984e;
 }
 
 img {
@@ -33,43 +33,56 @@ img {
 
 figure {
     margin: 40px 0px 40px 0px;
-	border: 1px solid   #808b96;	
-	background:  #212f3d;
 	line-height: 0;	
 }
 
 figcaption {
 	text-align: center;
-	margin: 15px 0px 20px 0px;
+	margin: 0px 0px 20px 0px;
+	font-size:80%;		
 }
 
 hr {
-	border-top: 1px dashed  #d5d8dc;
-	border-bottom: 0px hidden  #d5d8dc;
+	border-top: 1px dashed  #fff;
+	border-bottom: 0px hidden  #fff;
 	margin: 10px 20px 10px 20px;
 }
 
 blockquote {
 	margin: 0px -15px 0px -10px;
 	padding: 0px 10px 0px;
-	border-right: 5px solid #808b96;
+	border-right: 5px solid #fff;
 }
 
 .sidesection {
 	float: right;
 	padding: 10px;
-	width:20%;
 	font-size: 80%;	
+	width: 20em;
+}
+
+.sidesection  p, .sidesection h1, .sidesection h2{
+	text-align:center;
 }
 
 .mainsection {
 	float: right;
 	padding: 40px 40px 10px 40px;
-	background:  #2c3e50;
-	width:80%;	
+	background: #154360;
+	width:80%;
+	width: calc(100% - 16em);
+}
+
+.screen {
+	
 }
 
 @media print {
-	.sidesection {display:none;}
-	.mainsection {width:100%;}
+	.screen {display:none;}
+	.mainsection,.sidesection {width:100%;font-size:100%;}
+}
+
+@media only screen and (max-width: 40em)  {
+	.screen {display:none;}
+	.mainsection,.sidesection {width:100%;font-size:100%;}	
 }

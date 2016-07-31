@@ -6,9 +6,8 @@ function putfields() {
 <div class="sidesection">\
 	<h1><a href="index.html">\
 		درباره سازه ها ... \
-	</a></h2>\
-	<br>\
-	<div class="sideinfo">\
+	</a></h1>\
+	<div class="screen">\
 		<br>\
 		<h2>\
 			نوشته ها\
@@ -34,13 +33,14 @@ function putfields() {
 		<p><a href="about.html">\
 			درباره این وب سایت\
 		</a></p><br>\
-		<p>\
-نگارنده: حمید سلطانی محمدی \
-		<br>\
-ایمیل :\
- ' + aeml + ' \
-		</p>\
 	</div>\
+	<p>\
+نگارنده: حمید سلطانی محمدی \
+	<br>\
+<a href="https://hsoltanim.github.io">hsoltanim.github.io</a>\
+	<br>\
+ ' + aeml + ' \
+	</p>\
 </div>\
 \
 ';
